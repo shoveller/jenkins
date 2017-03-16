@@ -24,4 +24,4 @@ RUN mv docker/* /usr/bin/
 USER jenkins
 
 # 필요한 플러그인들을 설치
-RUN /usr/local/bin/install-plugins.sh junit git git-client ssh-slaves greenballs chucknorris antisamy-markup-formatter build-timeout credentials-binding timestamper ws-cleanup ant gradle workflow-aggregator github-organization-folder pipeline-stage-view subversion matrix-auth pam-auth ldap email-ext mailer
+RUN /usr/local/bin/install-plugins.sh junit git git-client ssh-slaves greenballs chucknorris antisamy-markup-formatter build-timeout credentials-binding timestamper ws-cleanup ant gradle workflow-aggregator github-organization-folder pipeline-stage-view subversion matrix-auth pam-auth ldap email-ext mailer docker-plugin
